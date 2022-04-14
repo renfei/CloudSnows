@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.renfei</groupId>
+    <artifactId>cloudsnows</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <description>CloudSnows is a solution for Spring Cloud.</description>
+    <url>https://cloudsnows.renfei.net</url>
+
+    <modules>
+
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <scm>
+        <url>https://github.com/renfei/CloudSnows</url>
+        <connection>scm:git:https://github.com/renfei/CloudSnows.git</connection>
+        <developerConnection>scm:git:https://github.com/renfei/CloudSnows.git</developerConnection>
+        <tag>v${project.version}</tag>
+    </scm>
+
+    <organization>
+        <name>RENFEI.NET</name>
+        <url>https://www.renfei.net</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>RenFei</name>
+            <email>i@renfei.net</email>
+            <url>https://www.renfei.net</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+</project>
